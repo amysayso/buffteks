@@ -2,22 +2,21 @@ using System;
 
 namespace buffteks.Models
 {
-    public class Students
-    {
+   
         public class Student 
         {
             //PK
-            public Student PrimaryKey {get; set;}
+            public int StudentID {get; set;}
             //first name
-            public Student F_Name {get; set;}
+            public string F_Name {get; set;}
             //last name
-            public Student L_Name {get; set;}
+            public string L_Name {get; set;}
             //phone
-            public Student PhoneNumber {get; set;}
+            public string PhoneNumber {get; set;}
             //email
-            public Student Email {get; set;}
+            public string Email {get; set;}
             //role 
-            public Student S_roles {get; set;}
+            public string Role {get; set;}
         }
-    }
+    
 }
